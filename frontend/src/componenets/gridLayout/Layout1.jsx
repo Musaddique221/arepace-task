@@ -10,7 +10,6 @@ const Layout1 = () => {
         Meet aerWing. An unmanned, eVTOL transportation fleet.
       </h1>
 
-      {/* Full-width top image with text */}
       <div
         className="w-full h-[400px] sm:h-[500px] lg:h-[600px] bg-cover bg-center flex flex-col justify-between p-6 sm:p-10 mb-6 rounded-[30px]"
         style={{ backgroundImage: `url(${img1})` }}
@@ -23,7 +22,6 @@ const Layout1 = () => {
         </button>
       </div>
 
-      {/* Two stacked or side-by-side images */}
       <div className="flex flex-col lg:flex-row gap-4">
         <div
           className="w-full lg:w-1/2 h-[400px] sm:h-[500px] lg:h-[600px] bg-cover bg-center flex justify-start rounded-[30px]"

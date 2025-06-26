@@ -10,7 +10,6 @@ const Layout2 = () => {
         Meet aerWing. An unmanned, eVTOL transportation fleet.
       </h1>
 
-      {/* Full-width top image with text */}
       <div
         className="w-full h-[400px] md:h-[500px] lg:h-[600px] bg-cover bg-center flex flex-col justify-start md:justify-between p-6 md:p-10 mb-6 rounded-[30px]"
         style={{ backgroundImage: `url(${img1})` }}
@@ -23,7 +22,6 @@ const Layout2 = () => {
         </button>
       </div>
 
-      {/* Two half-width images below */}
       <div className="flex flex-col lg:flex-row gap-4">
         <div
           className="w-full lg:w-1/2 h-[400px] md:h-[500px] lg:h-[600px] bg-cover bg-center flex items-start md:items-end rounded-[30px] p-6 md:p-10"
@@ -38,12 +36,12 @@ const Layout2 = () => {
           style={{ backgroundImage: `url(${img3})` }}
         >
           <p className="text-xl md:text-2xl lg:text-4xl font-medium max-w-4xl text-white">
-            From medical to cargo, A platform that moves more than just your car.
+            From medical to cargo, A platform that moves more than just your
+            car.
           </p>
         </div>
       </div>
 
-      {/* Bottom full-width image */}
       <div
         className="w-full h-[400px] md:h-[500px] lg:h-[600px] bg-cover bg-center flex flex-col justify-start md:justify-between p-6 md:p-10 mb-6 rounded-[30px] mt-8"
         style={{ backgroundImage: `url(${img1})` }}
